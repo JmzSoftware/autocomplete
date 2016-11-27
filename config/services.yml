@@ -1,0 +1,9 @@
+services:
+    aircode.autocomplete.controller:
+        class: aircode\autocomplete\controller\autocomplete
+        arguments:
+            - '@config'
+            - '@controller.helper'
+            - '@template'
+            - '@user'
+            - '@dbal.conn'

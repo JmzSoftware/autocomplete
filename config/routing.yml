@@ -1,0 +1,3 @@
+aircode_autocomplete_controller:
+    path: /autocomplete/{name}
+    defaults: { _controller: aircode.autocomplete.controller:handle }
